@@ -8,5 +8,9 @@
 + Configurations: Siehe .xml files
 
 ### Docker
-+ ``docker pull sequenceiq/hadoop-docker:2.7.1``
-+ ``docker run -it -p 8088:8088 -p 50070:50070 sequenceiq/hadoop-docker:2.7.1 /etc/bootstrap.sh -bash``
++ [AWS Docker](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
+	+ Security Group: ``All Trafic Anywhere``
++ [Running Hadoop in Docker](https://amitasviper.github.io/2018/04/24/running-hadoop-in-docker-on-mac.html)
+	+ ``sudo yum install``
+	+ ``sudo docker pull sequenceiq/hadoop-docker:2.7.1``
+	+ ``sudo docker run -it -p 50070:50070 sequenceiq/hadoop-docker:2.7.1 /etc/bootstrap.sh -bash``
