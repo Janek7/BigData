@@ -7,7 +7,7 @@ import com.hazelcast.core.HazelcastInstance;
 
 import java.util.Map;
 
-public class ClientDemo {
+public class HazelcastClientDemo {
 
     public static void main(String[] args) {
 
