@@ -9,8 +9,7 @@ public class PiExample {
 
     public static void main(String[] args) {
 
-        SparkConf conf = new SparkConf()
-                .setAppName("Getting-Started").setMaster("local[*]");
+        SparkConf conf = new SparkConf().setAppName("Pi-Example").setMaster("local[*]");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
         List<Integer> l = new ArrayList<>(NUM_SAMPLES);
